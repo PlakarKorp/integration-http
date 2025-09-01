@@ -15,6 +15,7 @@ func main() {
 	}
 
 	if err := sdk.RunStorage(storage.NewStore); err != nil {
-		panic(err)
+		fmt.Fprintln(os.Stderr, "Failed to initialize the SDK:", err)
+		os.Exit(1)
 	}
 }
