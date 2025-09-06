@@ -5,14 +5,14 @@ go 1.24.0
 toolchain go1.24.5
 
 require (
-	github.com/PlakarKorp/go-kloset-sdk v1.0.0-rc.1
-	github.com/PlakarKorp/kloset v1.0.2
+	github.com/PlakarKorp/go-kloset-sdk v1.0.0-rc.7
+	github.com/PlakarKorp/kloset v1.0.3
 	github.com/PlakarKorp/plakar v1.0.3-rc.2
 )
 
 require (
 	github.com/DataDog/zstd v1.5.7 // indirect
-	github.com/PlakarKorp/integration-grpc v1.0.3 // indirect
+	github.com/PlakarKorp/integration-grpc v1.0.10 // indirect
 	github.com/RaduBerinde/axisds v0.0.0-20250419182453-5135a0650657 // indirect
 	github.com/RaduBerinde/btreemap v0.0.0-20250419232817-bf0d809ae648 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -38,22 +38,23 @@ require (
 	github.com/nickball/go-aes-key-wrap v0.0.0-20170929221519-1c3aa3e4dfc5 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/prometheus/client_golang v1.23.0 // indirect
+	github.com/prometheus/client_golang v1.23.2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
-	github.com/prometheus/common v0.65.0 // indirect
+	github.com/prometheus/common v0.66.1 // indirect
 	github.com/prometheus/procfs v0.17.0 // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/tink-crypto/tink-go/v2 v2.4.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/zeebo/blake3 v0.2.4 // indirect
+	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	golang.org/x/crypto v0.41.0 // indirect
 	golang.org/x/exp v0.0.0-20250819193227-8b4c13bb791b // indirect
 	golang.org/x/mod v0.27.0 // indirect
 	golang.org/x/net v0.43.0 // indirect
 	golang.org/x/sys v0.35.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250804133106-a7a43d27e69b // indirect
-	google.golang.org/grpc v1.74.2 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250826171959-ef028d996bc1 // indirect
+	google.golang.org/grpc v1.75.0 // indirect
 	google.golang.org/protobuf v1.36.8 // indirect
 )
