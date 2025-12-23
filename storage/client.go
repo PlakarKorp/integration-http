@@ -83,7 +83,7 @@ func (s *Store) Create(ctx context.Context, config []byte) error {
 }
 
 func (s *Store) Open(ctx context.Context) ([]byte, error) {
-	r, err := s.sendRequest("GET", "/", network.ReqOpen{})
+	r, err := s.sendRequest("GET", "/config", network.ReqOpen{})
 	if err != nil {
 		return nil, err
 	}
