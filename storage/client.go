@@ -26,9 +26,9 @@ import (
 	"net/url"
 	"path"
 
+	network "github.com/PlakarKorp/integration-http/storage/contract"
 	"github.com/PlakarKorp/kloset/objects"
 	"github.com/PlakarKorp/kloset/storage"
-	"github.com/PlakarKorp/plakar/network"
 )
 
 type Store struct {
